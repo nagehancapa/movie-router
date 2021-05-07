@@ -1,3 +1,3 @@
 export default function HomePage() {
-  return <div>This is the HomePage</div>;
+  return <div>Welcome to my movie database</div>;
 }

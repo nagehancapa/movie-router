@@ -3,22 +3,17 @@ import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <div>
+    <div style={{ marginBottom: 20 }}>
       <NavLink activeStyle={{ fontWeight: "bold", color: "red" }} to="/" exact>
         Home
-      </NavLink>
-      {" - "}
-      <NavLink activeStyle={{ fontWeight: "bold", color: "red" }} to="/about">
-        About
       </NavLink>
       {" - "}
       <NavLink
         activeStyle={{ fontWeight: "bold", color: "red" }}
         to="/discover"
       >
-        Discover
+        Discover Movies
       </NavLink>
-      {" - "}
     </div>
   );
 }
